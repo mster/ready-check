@@ -1,6 +1,6 @@
 {
   "name": "ready-check",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Discord bot that adds a World of Warcraft style 'ready-check' to your server.",
   "main": "index.js",
   "scripts": {
