@@ -1,14 +1,18 @@
 {
   "name": "ready-check",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discord bot that adds a World of Warcraft style 'ready-check' to your server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint",
+    "lint": "echo \"Linting with StandardJS\" && standard --verbose && echo \"Lint Successful!\""
   },
-  "author": "",
+  "author": "Michael Sterpka <michaelsterpka@gmail.com> (https://github.com/mster)",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
   }
 }
