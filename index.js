@@ -44,7 +44,7 @@ client.on('message', async message => {
 
   // remove the ready check
   if (command === 'rm') {
-    if (STATE.cmdAuthor !== message.author.id) {
+    if (STATE.cmdAuthor === message.author.id) {
       STATE.ref.delete().catch(e => {})
       STATE.ref = null
       STATE.checking = false
